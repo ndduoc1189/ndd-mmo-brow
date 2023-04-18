@@ -1,4 +1,4 @@
-require('dotenv').config();
+//require('dotenv').config();
 // puppeteer-extra is a drop-in replacement for puppeteer,
 // it augments the installed puppeteer with plugin functionality
 const puppeteer = require('puppeteer-extra')
