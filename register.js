@@ -16,7 +16,7 @@ console.log(localUser);
 
 // puppeteer usage as normal
 puppeteer.launch({ 
-    headless: false,
+    headless: true,
     args: ['--lang=vi-VN'],
     executablePath: executablePath(), 
     userDataDir:"./data/webs/"+localUser
