@@ -11,7 +11,7 @@ const {executablePath} = require('puppeteer')
 
 puppeteer.use(StealthPlugin())
 
-const localUser = "ndduoc"+require("shortid").generate();
+const localUser = "d"+require("shortid").generate();
 console.log(localUser);
 
 // puppeteer usage as normal

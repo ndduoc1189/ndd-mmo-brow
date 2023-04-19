@@ -22,7 +22,7 @@ const localUser = "d"+require("shortid").generate();
 console.log(localUser);
 await  puppeteer.launch({ 
       headless: false,
-      args: ['--lang=vi-VN','--proxy-server=192.168.1.189:9101'],
+      args: ['--lang=vi-VN','--proxy-server=192.168.1.189:9102'],
       executablePath: executablePath(), 
       userDataDir:"./data/webs/"+localUser
   }).then(async browser => {
